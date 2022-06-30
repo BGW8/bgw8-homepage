@@ -28,7 +28,7 @@ const CardHeader = ({ avatar, size, title, name, company }) => {
 	return (
 		<HeaderContainer>
 			<a href='https://www.linkedin.com/in/emil-ryd%C3%A9n-0a37175a/details/recommendations/?detailScreenTabIndex=0'>
-				<Img src={avatar} size={size} borderRadius={"3rem"} />
+				<Img src={avatar} size={size} borderradius={"3rem"} />
 			</a>
 			<Name>{name}</Name>
 			<Title>{title}</Title>

@@ -8,8 +8,8 @@ import TextAnimation from "../components/text/TextAnimation";
 const Projects = (props) => {
 	return (
 		<PageWrapper>
-			<TextAnimation text1={"WORK IN PROGRESS"} text2={"ETA 2022"} />
-			<Img src={wip} alt='Work In Progress' size={"300px"} />
+			<TextAnimation text1={"SOME NICE PROJECTS"} text2={"ETA 2022"} />
+			<Img src={wip} alt='SOME NICE PROJECTS' size={"300px"} />
 		</PageWrapper>
 	);
 };

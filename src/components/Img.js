@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-const Img = ({ src, size, borderRadius = "", alt }) => {
+const Img = ({ src, size, borderradius = "", alt }) => {
 	return (
 		<ImgWrapper height={size} width={size}>
 			<StyledImg
 				src={src}
 				height={size}
 				width={size}
-				borderRadius={borderRadius}
+				borderradius={borderradius}
 			/>
 		</ImgWrapper>
 	);
@@ -16,7 +16,7 @@ const Img = ({ src, size, borderRadius = "", alt }) => {
 
 const StyledImg = styled(Image)`
 	alt: person;
-	border-radius: ${(props) => props.borderRadius || ""};
+	border-radius: ${(props) => props.borderradius || ""};
 `;
 
 const ImgWrapper = styled.div`
