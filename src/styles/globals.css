@@ -1,0 +1,23 @@
+/* Hides the scrolbars */
+* {
+	-ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+	display: none;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "poppins", Helvetica;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
